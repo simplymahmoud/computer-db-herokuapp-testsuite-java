@@ -131,7 +131,7 @@ public class RegressionTest extends BaseTest {
 	private WebElement searchComputer(String computerName) {
 		driver.fillTextField("search.field.id", computerName);
 		driver.click("search.button.id");
-		WebElement result = driver.findElementDinamic("//a[contains(text(),'" + computerName + "')]", "xpath");
+		WebElement result = driver.findElementDynamic("//a[contains(text(),'" + computerName + "')]", "xpath");
 		return result;
 	}
 
