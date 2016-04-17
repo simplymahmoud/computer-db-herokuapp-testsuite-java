@@ -89,7 +89,7 @@ public class FrameworkDriver {
 		webElement.click();
 	}
 	
-	public WebElement findElementDinamic(String element , String method){
+	public WebElement findElementDynamic(String element , String method){
 		try {
 			switch (method) {
 			case "id":
